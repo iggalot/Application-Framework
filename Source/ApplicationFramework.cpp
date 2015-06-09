@@ -1,4 +1,5 @@
-// Git test
+// //////////////////////////////
+// Git test #2
 // ApplicationFramework.cpp : main project file.
 #include "stdafx.h"
 #include "../Headers/Main.h"							// Include our main header for the application..includes the necessary includes for the application
