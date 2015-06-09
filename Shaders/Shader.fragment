@@ -1,0 +1,13 @@
+//Fragment shader
+#version 330 core
+in vec4 vertexColor; //  the input variable from the vertex shader (same name)
+//in vec3 ourColor;
+out vec4 color;
+
+//Uniform vec4 ourColor; // set the variable in the OpenGL code in our program
+
+void main()
+{
+//	color = vec4(1.0f, 0.75f, 0.5f, 1.0f);		// an orange color
+	color = vertexColor;				// for the red color passed from the vertex shader
+}
